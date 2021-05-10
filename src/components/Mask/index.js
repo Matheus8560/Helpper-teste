@@ -3,7 +3,7 @@ const maskCpfCnpj = (ev, formik) => {
     const {value} = ev.target
     let cpfCnpjMask= ''
 
-    if(value.length < 14){
+    if(value.length < 15){
       cpfCnpjMask = value
         .replace(/\D/g, '')
         .replace(/(\d{3})(\d)/, '$1.$2')
