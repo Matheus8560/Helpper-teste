@@ -1,0 +1,17 @@
+.Container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    width: 500px;
+}
+
+.Container h1 {
+    margin-bottom: 15px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+}

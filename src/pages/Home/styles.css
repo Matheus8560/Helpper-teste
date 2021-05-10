@@ -1,10 +1,10 @@
-.App {
+.Container {
     background-color: white;
     border-radius: 20px;
     padding: 50px;
     width: 500px;
 }
-.App h1{
+.Container h1{
   margin-top: 0px;
   text-align: center;
   color: #20222a;

@@ -9,12 +9,8 @@ export default Yup.object().shape({
         .string()
         .email('Email invalido!')
         .required('Este campo é obrigatório!'),
-    cpf: Yup
+    cpf_cnpj: Yup
         .string()
-        .matches(
-            /^([0-9]{3}\.?){3}-?[0-9]{2}$/,
-            "CPF invalido!"
-        )
         .required('Este campo é obrigatório!'),
     tel: Yup
         .string()
@@ -24,17 +20,6 @@ export default Yup.object().shape({
             'Telefone invalido'
         )
     .required('Este campo é obrigatório!'),
-    senha: Yup
-        .string()
-        .required('Este campo é obrigatório!')
-        .matches(
-            /^.*(?=.{8,})(?=.*\d)((?=.*[a-z]){1}).*$/,
-            "Deve conter letras, numeros e um minimo de 8 caracteres!"
-        ),
-    conf_senha: Yup
-        .string()
-        .required('Este campo é obrigatório!')
-        .oneOf([Yup.ref("senha"), null], "A senha deve ser a mesma!"),
     cep: Yup
         .string()
         .matches(
@@ -42,14 +27,11 @@ export default Yup.object().shape({
             'CEP invalido'
         )
         .required('Este campo é obrigatório!'),
-    rua: Yup
+    logradouro: Yup
         .string()
         .required('Este campo é obrigatório!'),
     numero: Yup
         .number()
-        .required('Este campo é obrigatório!'),
-    comp: Yup
-        .string()
         .required('Este campo é obrigatório!'),
     bairro: Yup
         .string()

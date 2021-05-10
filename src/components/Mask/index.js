@@ -1,15 +1,25 @@
-const maskCpf = (ev, formik) => {
+const maskCpfCnpj = (ev, formik) => {
 
     const {value} = ev.target
-  
-    const cpfMask = value
-      .replace(/\D/g, '')
-      .replace(/(\d{3})(\d)/, '$1.$2')
-      .replace(/(\d{3})(\d)/, '$1.$2')
-      .replace(/(\d{3})(\d{1,2})$/, '$1-$2')
+    let cpfCnpjMask= ''
+
+    if(value.length < 14){
+      cpfCnpjMask = value
+        .replace(/\D/g, '')
+        .replace(/(\d{3})(\d)/, '$1.$2')
+        .replace(/(\d{3})(\d)/, '$1.$2')
+        .replace(/(\d{3})(\d{1,2})$/, '$1-$2')
+    }else{
+      cpfCnpjMask = value
+        .replace(/\D/g, '')
+        .replace(/(\d{2})(\d)/, '$1.$2')
+        .replace(/(\d{3})(\d)/, '$1.$2')
+        .replace(/(\d{3})(\d)/, '$1/$2')
+        .replace(/(\d{4})(\d{1,2})$/, '$1-$2')
+    }
       
       
-    return formik.setFieldValue('cpf', cpfMask) 
+    return formik.setFieldValue('cpf_cnpj', cpfCnpjMask) 
   }
   
   const maskTel = (ev, formik) => {
@@ -38,4 +48,4 @@ const maskCpf = (ev, formik) => {
     return formik.setFieldValue('cep', cepMask) 
   }
   
-  export { maskTel, maskCep, maskCpf }
+  export { maskTel, maskCep, maskCpfCnpj }

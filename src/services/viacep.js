@@ -8,7 +8,7 @@ const viaCep = (ev, formik) =>{
     }else{
       fetch(`https://viacep.com.br/ws/${cep}/json/`).then(res => res.json()).then(data =>{
       formik.setFieldValue('bairro', data.bairro)
-      formik.setFieldValue('rua', data.logradouro)
+      formik.setFieldValue('logradouro', data.logradouro)
       formik.setFieldValue('cidade', data.localidade)
       formik.setFieldValue('estado', data.uf)
       })
