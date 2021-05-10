@@ -15,7 +15,7 @@ Caso queira deixar algum feedback, por favor envie para matheuspassos12@hotmail.
 # Prints
 
 <p align="center">
-  <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/cadastro.pngg" width=400 height=200/>
+  <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/cadastro.png" width=400 height=200/>
   <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/dados.png" width=400 height=200/>
 </p>
 
