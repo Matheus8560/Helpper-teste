@@ -8,7 +8,7 @@ Caso queira deixar algum feedback, por favor envie para matheuspassos12@hotmail.
 <ul>
     <li>Percistencia dos dados utilizando localStorage</li>
     <li>Formik para construção dos formularios</li>
-    <li>ViaCEP para consulta do cep e autoocompletar os dadso do endereço</li>
+    <li>ViaCEP para consulta do cep e autocompletar os campos do endereço</li>
     <li>Mascaras de Inputs Feitas com Regex</li>
 </ul>
 
