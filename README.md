@@ -27,5 +27,5 @@ No seu terminal rode os seguintes comandos:
     <li>`git clone https://github.com/Matheus8560/Helpper-teste.git`</li>
     <li>`cd Helpper-teste`</li>
     <li>`npm install`</li>
-    <li>`npm start` ou `npm run dev`</li>
+    <li>`npm start`</li>
 </ul>
