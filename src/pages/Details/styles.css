@@ -10,8 +10,21 @@
 }
 
 .linha {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
+}
+
+.voltar-btn{
+    background-color: #20222a;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 25px;
+    outline: none;
+}
+
+.voltar-btn:hover{
+    background: #353946;
+    transition: 0.5s;
 }

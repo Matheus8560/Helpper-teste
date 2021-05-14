@@ -1,0 +1,63 @@
+.Container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    width: 500px;
+}
+.Container h1{
+  margin-top: 0px;
+  text-align: center;
+  color: #20222a;
+  font-weight: 500;
+}
+
+.formgroup{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.formItem{ width: 49%; }
+#cep{ 
+    margin-top: 10px;
+    width: 25%; 
+}
+#logradouro{ 
+    margin-top: 10px;
+    width: 56%; 
+}
+#num{ 
+    margin-top: 10px;
+    width: 15%; 
+}
+#bairro{ 
+    margin-bottom: 10px;
+    width: 40%; 
+}
+#cidade{ 
+    margin-bottom: 10px;
+    width: 40%; 
+}
+#estado{ 
+    margin-bottom: 10px;
+    width: 16%; 
+}
+
+.formControl{
+  margin: 10px 0px;
+}
+
+.input{
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  border: 1px solid rgb(42, 42, 46);
+  outline: none;
+}
+
+.erro{
+  color: crimson;
+  font-size: 15px;
+}

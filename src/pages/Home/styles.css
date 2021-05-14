@@ -1,63 +1,72 @@
-.Container {
+.container {
     background-color: white;
     border-radius: 20px;
     padding: 50px;
-    width: 500px;
-}
-.Container h1{
-  margin-top: 0px;
-  text-align: center;
-  color: #20222a;
-  font-weight: 500;
+    width: 900px;
+    min-height: 570px;
 }
 
-.formgroup{
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px;
 }
 
-.formItem{ width: 49%; }
-#cep{ 
-    margin-top: 10px;
-    width: 25%; 
-}
-#logradouro{ 
-    margin-top: 10px;
-    width: 56%; 
-}
-#num{ 
-    margin-top: 10px;
-    width: 15%; 
-}
-#bairro{ 
-    margin-bottom: 10px;
-    width: 40%; 
-}
-#cidade{ 
-    margin-bottom: 10px;
-    width: 40%; 
-}
-#estado{ 
-    margin-bottom: 10px;
-    width: 16%; 
+.header-text{
+    color: #20222a;
+    font-weight: 500;
 }
 
-.formControl{
-  margin: 10px 0px;
+.register-btn{
+    background-color: #20222a;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px;
+    outline: none;
 }
 
-.input{
-  height: 45px;
-  border-radius: 10px;
-  margin-top: 10px;
-  padding-left: 10px;
-  width: 100%;
-  border: 1px solid rgb(42, 42, 46);
-  outline: none;
+.register-btn:hover{
+    background: #353946;
+    transition: 0.5s;
 }
 
-.erro{
-  color: crimson;
-  font-size: 15px;
+table th {
+    background: #bfbfbf;
+    text-align: left;
+}
+
+th, td {
+    line-height: 35px;
+}
+
+.table-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.table-clientes{
+    width: 100%;
+}
+
+.btn-detail{
+    background-color: #33cc33;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.btn-delete{
+    background-color: #ff0000;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    outline: none;
 }
