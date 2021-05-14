@@ -8,24 +8,30 @@ Caso queira deixar algum feedback, por favor envie para matheuspassos12@hotmail.
 <ul>
     <li>Percistencia dos dados utilizando localStorage</li>
     <li>Formik para construção dos formularios</li>
-    <li>ViaCEP para consulta do cep e autoocompletar os dadso do endereço</li>
+    <li>ViaCEP para consulta do cep e autocompletar os campos do endereço</li>
     <li>Mascaras de Inputs Feitas com Regex</li>
 </ul>
 
 # Prints
 
 <p align="center">
-  <img src="https://github.com/raissaqueiroz/helpper-webapp/blob/master/screeshots/cadastro.png" width=400 height=200/>
-  <img src="https://github.com/raissaqueiroz/helpper-webapp/blob/master/screeshots/dados.png" width=400 height=200/>
+  <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/cadastro.png" width=400 height=200/>
+  <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/dados.png" width=400 height=200/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Matheus8560/Helpper-teste/blob/master/screenshots/home.png" width=400 height=200/>
 </p>
 
 # Instalação rápida
 
-No seu terminal rode os seguintes comandos:
+Primeiramente você precisa baixar e rodar o backend desenvolvido para essa aplicação. Para isso [clique aqui.](https://github.com/Matheus8560/backend-helpper)
+
+Após o precesso descrito no link acima, em seu terminal rode os seguintes comandos:
 
 <ul>
     <li>`git clone https://github.com/Matheus8560/Helpper-teste.git`</li>
     <li>`cd Helpper-teste`</li>
     <li>`npm install`</li>
-    <li>`npm start` ou `npm run dev`</li>
+    <li>`npm start`</li>
 </ul>
