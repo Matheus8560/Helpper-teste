@@ -10,7 +10,7 @@ Caso queira deixar algum feedback, por favor envie para matheuspassos12@hotmail.
     <li>Formik para construção dos formularios</li>
     <li>ViaCEP para consulta do cep e autocompletar os campos do endereço</li>
     <li>Mascaras de Inputs Feitas com Regex</li>
-</ul>
+</ul> 
 
 # Prints
 
@@ -27,7 +27,7 @@ Caso queira deixar algum feedback, por favor envie para matheuspassos12@hotmail.
 
 Primeiramente você precisa baixar e rodar o backend desenvolvido para essa aplicação. Para isso [clique aqui.](https://github.com/Matheus8560/backend-helpper)
 
-Após o precesso descrito no link acima, em seu terminal rode os seguintes comandos:
+Após o precesso descrito no link acima, rode em seu terminal os seguintes comandos:
 
 <ul>
     <li>`git clone https://github.com/Matheus8560/Helpper-teste.git`</li>
